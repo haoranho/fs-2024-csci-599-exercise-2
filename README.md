@@ -168,8 +168,8 @@ $$
 = \mathbf{v}_{i,j,k}
 :=
 \begin{cases}
-\mathbf{n}_{\ell}, & \text{if } \exists\, \mathbf{p}_{\ell} = \mathbf{x}_{i,j,k}, \\[6pt]
-\begin{pmatrix}0 \\ 0 \\ 0\end{pmatrix}, & \text{otherwise}.
+\mathbf{n}_{\ell}, & \text{if } \exists\, \mathbf{p}_{\ell} = \mathbf{x}_{i,j,k}, \\
+\mathbf{0},        & \text{otherwise}.
 \end{cases}
 $$
 
